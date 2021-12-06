@@ -53,7 +53,7 @@ class InterferenceClass(object):
         noise = np.random.randn(signal.shape[0], signal.shape[1])
         noise = noise - np.mean(noise)  # 均值为0
         signal_power = np.linalg.norm(signal - signal.mean()) ** 2 / signal.size
-        noise_variance = signal_power / np.power(10, (SNR / 10))
+        noise_variance = signal_power / np.power(10, (SNR / 20))
         noise = (np.sqrt(noise_variance) / np.std(noise)) * noise
 
         return noise
@@ -73,9 +73,9 @@ class InterferenceClass(object):
         Yhar = np.fft.rfft(np.transpose(signal[:, 1])) / Fn
         Zhar = np.fft.rfft(np.transpose(signal[:, 2])) / Fn
 
-        Yx = Xhar.max() / np.power(10, (SIR / 10))
-        Yy = Yhar.max() / np.power(10, (SIR / 10))
-        Yz = Zhar.max() / np.power(10, (SIR / 10))
+        Yx = Xhar.max() / np.power(10, (SIR / 20))
+        Yy = Yhar.max() / np.power(10, (SIR / 20))
+        Yz = Zhar.max() / np.power(10, (SIR / 20))
         sb = np.zeros((int(Fn), 3))
         sb[:, 0] = np.cos(2.0 * PI * n * fx * t + PI / 2.0) * (-1.0) * Yx
         sb[:, 1] = np.cos(2.0 * PI * n * fy * t + PI / 2.0) * (-1.0) * Yy
