@@ -388,7 +388,7 @@ class QmyMainWindow(QMainWindow):
       xr = str(np.shape(self.ImgData)[0])
       yr = str(np.shape(self.ImgData)[1])
       zr = str(np.shape(self.ImgData)[2])
-      strvalue="FOV(mm): "+xmax+" , "+ymax+" , "+zmax+"\n\nResolution: "+xr+" X "+yr+" X "+zr+"\n\nSSIM: "+str(ssim(self.OrgImgData[1:-1,1:-1,1:-1], self.ImgData,data_range=1,channel_axis=None))[0:6]
+      strvalue="FOV(mm): "+xmax+" , "+ymax+" , "+zmax+"\n\nResolution: "+xr+" X "+yr+" X "+zr+"\n\nSSIM: "+str(ssim(self.OrgImgData[1:-1,1:-1,1:-1], self.ImgData*self.ImgData))[0:6]
       textmapper.SetInput(strvalue)
       textmapper.SetTextProperty(textProperty)
 

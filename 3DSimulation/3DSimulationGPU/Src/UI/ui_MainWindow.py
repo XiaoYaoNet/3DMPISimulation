@@ -549,9 +549,9 @@ class Ui_MainWindow(object):
         self.ParticleTemLabel.setText(_translate("MainWindow", PARTTEMPE+"(℃)"))
         self.ParticleTemEdit.setText("19.85")
         self.ParticleDiaLabel.setText(_translate("MainWindow", PARTDIA+"(nm)"))
-        self.ParticleDiaEdit.setText("32.1")
+        self.ParticleDiaEdit.setText("27")
         self.ParticleSatLabel.setText(_translate("MainWindow", PARTSATMAG+"(T)"))
-        self.ParticleSatEdit.setText("0.551")
+        self.ParticleSatEdit.setText("1")
         self.ParticleConLabel.setText(_translate("MainWindow", PARTCON+"(mmol/L)"))
         self.ParticleConEdit.setText("100")
 
