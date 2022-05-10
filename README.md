@@ -45,7 +45,7 @@ To run `mainGPU.py`, you also need to install:
   
 1.  `python mainCPU.py`, the result of the runing is shown in the figure:
 
-
+![](./img/CPU.png) 
 
 2.  `python mainGPU.py`, the result of the runing is shown in the figure:
 
