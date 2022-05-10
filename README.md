@@ -35,15 +35,18 @@ The following dependent libraries need to be installed:
 To run `mainGPU.py`, you also need to install:
 
 9.  `pip install pycuda`
-10. Download **Visio Studio 2022 Community** and Install **VC++ 2022** component
+10. Download **Visio Studio 2022 Community** and Install the component pointed by the red arrow
+![](./img/0.png) 
+
+
 11. Add the `cl.exe` path(**Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64**) to the system environment variables.
 
 ## RUNING THE EXAMPLE
   
 1.  `python mainCPU.py`, the result of the runing is shown in the figure:
 
-![](./Image/Fig1.png) 
+
 
 2.  `python mainGPU.py`, the result of the runing is shown in the figure:
 
-![](./Image/Fig2.png) 
+![](./img/GPU.png) 
