@@ -39,7 +39,7 @@ To run `mainGPU.py`, you also need to install:
 ![](./img/0.png) 
 
 
-11. Add the `cl.exe` path(**(~your installation path)\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64**) to the system environment variables.
+11. Add the `cl.exe` path(  **(~your installation path)\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64**  ) to the system environment variables.
 
 ## RUNING THE EXAMPLE
   
