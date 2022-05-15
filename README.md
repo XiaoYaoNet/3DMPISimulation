@@ -10,7 +10,7 @@ The current version provides two main function files: `mainCPU.py` and `mainGPU.
 
 **mainCPU.py** compiled into binary executable files in Windows system is provided.  
 
-In Windows, clicking file **mainCPU.exe** to execute the binary files. See the path for details:**3DSimulation/3DSimulationCPU/Executable/mainCPU.exe**
+In Windows, clicking file **mainCPU.exe** to execute the binary files. See the path for details:**3DSimulation\3DSimulationCPU\Executable\mainCPU.exe**
 
 In Windows system, the test of the `mainGPU.py` were performed using the following hardware:  
 >**GPU NVIDIA GeForce GTX 2070 8G**
@@ -39,7 +39,7 @@ To run `mainGPU.py`, you also need to install:
 ![](./img/0.png) 
 
 
-11. Add the `cl.exe` path(**Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64**) to the system environment variables.
+11. Add the `cl.exe` path(**(~your installation path)\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64**) to the system environment variables.
 
 ## RUNING THE EXAMPLE
   
