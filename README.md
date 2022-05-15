@@ -10,7 +10,7 @@ The current version provides two main function files: `mainCPU.py` and `mainGPU.
 
 **mainCPU.py** compiled into binary executable files in Windows system is provided.  
 
-In Windows, clicking file **mainCPU.exe** to execute the binary files.  
+In Windows, clicking file **mainCPU.exe** to execute the binary files. See the path for details:**3DSimulation/3DSimulationCPU/Executable/mainCPU.exe**
 
 In Windows system, the test of the `mainGPU.py` were performed using the following hardware:  
 >**GPU NVIDIA GeForce GTX 2070 8G**
